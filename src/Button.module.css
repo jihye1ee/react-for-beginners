@@ -1,0 +1,9 @@
+/*
+  📌 ③ create-react-app으로 작업할 때 포인트는 "분할하고 정복하는 것"
+  → CSS modules 사용
+*/
+
+.btn {
+  background-color: #000;
+  color: #fff;
+}
