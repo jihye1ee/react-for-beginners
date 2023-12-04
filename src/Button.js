@@ -34,6 +34,6 @@ export default Button; // App.js에서 Button을 가져올 수 있게 하고 싶
   (2) create-react-app
   - 리액트 애플리케이션을 만드는 최고의 방식
   - create-react-app으로 서로 다른 파일들로 코드를 분할하는 등의 작업도 할 수 있게 됨
-  - 컨포넌트들이나 스타일들을 독립적이게 유지시켜 줌
+  - 컴포넌트들이나 스타일들을 독립적이게 유지시켜 줌
   - 무작위적인 랜덤 class를 가짐
 */
