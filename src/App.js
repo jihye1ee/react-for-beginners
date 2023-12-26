@@ -26,14 +26,14 @@ function App() {
     ex) API를 통해 데이터를 가져올 때 컴포넌트 렌더에서 API를 부르고 이후 state가 변화할 때 그 API에서 데이터를 다시 가져오지 않게 만들 수 있음
   */
 
-
+  /*
     useEffect(iRunOnlyOnce, []);
     // 컴포넌트의 첫 번째 render 시점에서 useEffect가 iRunOnlyOnce 함수 호출
+  */
 
-
-  // useEffect(() => {
-  //   console.log("CALL THE API....")
-  // }, []);
+  useEffect(() => {
+    console.log("CALL THE API....")
+  }, []);
 
   return (
     <div>
