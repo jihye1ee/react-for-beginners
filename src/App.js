@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 /*
   [useEffect]
   - 두 개의 argument를 가지는 함수
-    → 첫 번째 argument: 우리가 한 번만 실행하고 싶은 코드
-  - 코드가 한 번만 실행될 수 있도록 보호해 주기 때문에 사용함
-    → React JS는 우리에게 언제 코드를 실행할지 안 할지 결정할 tool을 제공
+    → 첫 번째 argument: 우리가 실행시키고 싶은 코드
+    → 두 번째 argument(dependency): React.js가 지켜보아야 하는 것들로 그것들이 변화할 때 React.js가 첫 번째 argument에 적힌 코드를 실행함
+  - 코드를 언제 실행할지 선택할 수 있음
 */
 
 function App() {
